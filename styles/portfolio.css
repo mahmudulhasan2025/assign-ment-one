@@ -15,6 +15,10 @@
 .text-primary{
     color: #4E47FF;
 }
+.colour{
+    color: #252432;
+
+}
 /* background */
 .background{
     background-image: url(../Assets/Hero-bg.png);
@@ -65,4 +69,36 @@ nav ul a{
     width: 905px;
     margin-left: 267.5px;
     margin-right: 267.5px;
+}
+/* Banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 141px 0 159px;
+}
+
+.banner-content{
+    width: 510px;
+}
+
+.banner-greetings{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+
+} 
+.banner-description{
+    font-weight: 400;
+    font-size: 24px;
+    color:#252432;
+    opacity: 50%;
+    text-align: left;
+
+}
+img{
+    border-radius: 48px;
+    width: 403px;
+    height: 324px;
 }
