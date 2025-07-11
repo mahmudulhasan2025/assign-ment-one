@@ -23,7 +23,7 @@
 .background{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 /* Nav style */
@@ -33,7 +33,7 @@ nav ul{
     justify-content: space-between;
     margin-left: 150px; 
     margin-right: 150px; 
-    margin-bottom: 158px;
+    margin-bottom: 150px;
 }
 
 .nav-title{
@@ -65,11 +65,8 @@ nav ul li{
  }
 .header-part{
     text-align: center;
-    padding-bottom: 200px;
-    height: 152px;
     width: 905px;
-    margin-left: 267.5px;
-    margin-right: 267.5px;
+    margin-left: 150px; 
 }
 /* Banner style */
 
@@ -230,4 +227,64 @@ main{
 .secondary-banner-button{
     text-align: center;
     padding: 20px;  
+}
+/* footer styles */
+
+.secondary-bg{
+    max-width: 1140px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.your-information h5{
+    font-weight: bold;
+    font-size: 90px;
+    margin: 200px 0;
+    margin-right: 80px;
+    width: 528px;
+
+}
+
+.information{
+margin-top: 71px;
+margin-bottom: 71px;
+}
+
+footer input[type="text"]{
+    height: 50px;
+    display: block;
+    width: 464px;
+    padding: 15px 32px;
+    font-size: 20px; 
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-color: #D6DDED;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.submit-but{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    height: 64px;
+    width:527px;
+}
+textarea{
+    width: 463px;
+    height: 135px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-color: #D6DDED;
+    background-color: #FFFFFF;
+}
+label{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
 }
