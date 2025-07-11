@@ -44,9 +44,9 @@ nav ul li{
     list-style: none;
 
 }
-nav ul a{
+/* nav ul a{
     text-decoration: none;
-}
+} */
  /* Button */
  .btn-primary{
     background-color: #4E47FF;
@@ -55,6 +55,7 @@ nav ul a{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    text-decoration: none;
  }
  .description{
     font-size: 65px;
@@ -200,3 +201,33 @@ main{
     margin:0;
 }
 
+/* secondary banner style*/
+
+
+.webflow{
+    max-width: 1140px;
+    height: auto;
+    background-color: rgba(242, 237, 237, 0.5);
+    padding: 71px  150px;
+    text-align: center;
+}
+.secondary-banner-h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px ;
+}
+.secondary-banner-h6{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px; 
+    margin-top: 0;
+}
+.secondary-banner-img{
+    height: 364.77px;
+    width: 840px; 
+    padding-top: 20px; 
+    margin-top: 20px;
+}
+.secondary-banner-button{
+    text-align: center;
+    padding: 20px;  
+}
